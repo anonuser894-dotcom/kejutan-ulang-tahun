@@ -1,0 +1,1433 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Untuk Calon Istriku ❤️</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background: #120b10;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        section {
+            padding: 80px 20px;
+        }
+
+        h1, h2, h3 {
+            color: #ffb6c9;
+        }
+
+        p {
+            line-height: 1.8;
+        }
+
+        /* =========================
+           BACKGROUND MUSIC
+        ========================= */
+
+        #musicButton {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            z-index: 9999;
+
+            width: 50px;
+            height: 50px;
+
+            border: none;
+            border-radius: 50%;
+
+            background: rgba(255, 105, 140, 0.9);
+            color: white;
+
+            font-size: 20px;
+            cursor: pointer;
+
+            box-shadow: 0 0 15px rgba(255, 105, 140, 0.6);
+        }
+
+        /* =========================
+           OPENING
+        ========================= */
+
+        .opening {
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+
+            position: relative;
+
+            background:
+                linear-gradient(
+                    rgba(0,0,0,0.55),
+                    rgba(0,0,0,0.75)
+                ),
+                url("foto1.jpeg");
+
+            background-size: cover;
+            background-position: center;
+        }
+
+        .opening-content {
+            max-width: 700px;
+            padding: 30px;
+        }
+
+        .opening h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+
+            text-shadow:
+                0 0 10px rgba(255, 182, 193, 0.8);
+        }
+
+        .opening p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .heart {
+            font-size: 60px;
+            animation: heartbeat 1.3s infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.25);
+            }
+        }
+
+        .btn {
+            display: inline-block;
+
+            padding: 14px 30px;
+
+            border-radius: 30px;
+
+            background: #ff6f91;
+            color: white;
+
+            text-decoration: none;
+
+            border: none;
+
+            font-family: inherit;
+            font-size: 16px;
+
+            cursor: pointer;
+
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.08);
+            background: #ff4f7b;
+            box-shadow: 0 0 20px rgba(255, 111, 145, 0.6);
+        }
+
+        /* =========================
+           MENU
+        ========================= */
+
+        .menu {
+            background: #1a0e15;
+            text-align: center;
+        }
+
+        .menu h2 {
+            margin-bottom: 35px;
+            font-size: 32px;
+        }
+
+        .menu-container {
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(150px, 1fr));
+
+            gap: 20px;
+
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .menu-card {
+            background: #26131d;
+
+            padding: 25px 15px;
+
+            border-radius: 20px;
+
+            text-decoration: none;
+            color: white;
+
+            border: 1px solid rgba(255, 182, 193, 0.15);
+
+            transition: 0.3s;
+        }
+
+        .menu-card:hover {
+            transform: translateY(-7px);
+            background: #341724;
+
+            box-shadow:
+                0 10px 25px rgba(0,0,0,0.3);
+        }
+
+        .menu-card span {
+            display: block;
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        /* =========================
+   PERJALANAN KITA
+========================= */
+
+#perjalanan {
+    background: #170e16;
+}
+
+.timeline {
+    position: relative;
+    margin-top: 40px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #d99caf;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 45px;
+    padding-left: 45px;
+}
+
+.timeline-item::before {
+    content: "❤️";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+.timeline-item span {
+    color: #dfa5b9;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.timeline-item h3 {
+    margin: 5px 0 10px;
+    font-size: 23px;
+}
+
+.timeline-item p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #d9d0d7;
+}
+
+.timeline-photo {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 18px;
+}
+
+        /* =========================
+           GALLERY
+        ========================= */
+
+        .gallery {
+            background: #1a0e15;
+            text-align: center;
+        }
+
+        .gallery h2 {
+            font-size: 35px;
+            margin-bottom: 35px;
+        }
+
+        .gallery-container {
+            max-width: 1000px;
+            margin: auto;
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(180px, 1fr));
+
+            gap: 15px;
+        }
+
+        .gallery-container img {
+            width: 100%;
+            height: 230px;
+
+            object-fit: cover;
+
+            border-radius: 18px;
+
+            transition: 0.4s;
+
+            cursor: pointer;
+        }
+
+        .gallery-container img:hover {
+            transform: scale(1.04);
+        }
+
+        /* =========================
+           CHAT BUCIN
+        ========================= */
+
+        .chat-section {
+            text-align: center;
+        }
+
+        .chat-section h2 {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        .chat-section > p {
+            margin-bottom: 35px;
+            color: #e8cbd3;
+        }
+
+        .chat-photo-container {
+            max-width: 700px;
+            margin: auto;
+
+            padding: 15px;
+
+            background: #24131c;
+
+            border-radius: 25px;
+
+            box-shadow:
+                0 15px 40px rgba(0,0,0,0.5);
+
+            border: 1px solid rgba(255, 182, 193, 0.15);
+        }
+
+        .chat-photo {
+            width: 100%;
+
+            display: block;
+
+            border-radius: 18px;
+
+            cursor: pointer;
+
+            transition: 0.3s;
+        }
+
+        .chat-photo:hover {
+            transform: scale(1.01);
+        }
+
+        .chat-caption {
+            padding: 20px 10px 5px;
+
+            color: #f2cbd5;
+
+            font-size: 15px;
+        }
+
+        /* =========================
+           VIDEO
+        ========================= */
+
+        .video-section {
+            background: #1a0e15;
+            text-align: center;
+        }
+
+        .video-section h2 {
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        .video-container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        video {
+            width: 100%;
+
+            border-radius: 20px;
+
+            box-shadow:
+                0 15px 40px rgba(0,0,0,0.5);
+        }
+
+        /* =========================
+           SURAT ULANG TAHUN
+        ========================= */
+
+        .letter {
+            max-width: 850px;
+            margin: auto;
+
+            background: #21111a;
+
+            padding: 40px;
+
+            border-radius: 25px;
+
+            box-shadow:
+                0 15px 40px rgba(0,0,0,0.4);
+
+            border: 1px solid rgba(255, 182, 193, 0.1);
+        }
+
+        .letter h2 {
+            text-align: center;
+
+            font-size: 35px;
+
+            margin-bottom: 30px;
+        }
+
+        .letter p {
+            margin-bottom: 18px;
+            font-size: 17px;
+        }
+
+        .signature {
+            text-align: right;
+
+            margin-top: 30px;
+
+            color: #ffb6c9;
+
+            font-style: italic;
+        }
+
+        /* =========================
+           CALON ISTRI
+        ========================= */
+
+        .future {
+            min-height: 70vh;
+
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+
+            background:
+                linear-gradient(
+                    rgba(0,0,0,0.65),
+                    rgba(0,0,0,0.8)
+                ),
+                url("foto6.jpeg");
+
+            background-size: cover;
+            background-position: center;
+        }
+
+        .future-content {
+            max-width: 750px;
+        }
+
+        .future h2 {
+            font-size: 40px;
+            margin-bottom: 25px;
+        }
+
+        .future p {
+            font-size: 19px;
+            margin-bottom: 15px;
+        }
+
+        .big-heart {
+            font-size: 55px;
+            margin-top: 20px;
+
+            animation: heartbeat 1.4s infinite;
+        }
+
+        /* =========================
+           FOOTER
+        ========================= */
+
+        footer {
+            text-align: center;
+
+            padding: 30px 20px;
+
+            background: #0d070b;
+
+            color: #cdaab5;
+
+            font-size: 14px;
+        }
+
+        /* =========================
+           REVEAL ANIMATION
+        ========================= */
+
+        .reveal {
+            opacity: 0;
+
+            transform: translateY(40px);
+
+            transition:
+                opacity 1s ease,
+                transform 1s ease;
+        }
+
+        .reveal.active {
+            opacity: 1;
+
+            transform: translateY(0);
+        }
+
+        /* =========================
+           FALLING HEART
+        ========================= */
+
+        .falling-heart {
+            position: fixed;
+
+            top: -20px;
+
+            color: #ff7fa0;
+
+            font-size: 18px;
+
+            pointer-events: none;
+
+            z-index: 9998;
+
+            animation:
+                fall linear forwards;
+        }
+
+        @keyframes fall {
+            to {
+                transform:
+                    translateY(110vh)
+                    rotate(360deg);
+
+                opacity: 0;
+            }
+        }
+
+        /* =========================
+           IMAGE POPUP
+        ========================= */
+
+        .image-popup {
+            position: fixed;
+
+            inset: 0;
+
+            background: rgba(0,0,0,0.9);
+
+            display: none;
+
+            justify-content: center;
+            align-items: center;
+
+            z-index: 10000;
+
+            padding: 20px;
+
+            cursor: pointer;
+        }
+
+        .image-popup img {
+            max-width: 95%;
+            max-height: 90%;
+
+            object-fit: contain;
+
+            border-radius: 15px;
+
+            box-shadow:
+                0 0 40px rgba(255,182,193,0.25);
+        }
+
+        /* =========================
+           RESPONSIVE
+        ========================= */
+
+        @media (max-width: 700px) {
+
+            .opening h1 {
+                font-size: 34px;
+            }
+
+            .opening p {
+                font-size: 17px;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+                flex-direction: column;
+            }
+
+            .timeline-img {
+                width: 100%;
+            }
+
+            .letter {
+                padding: 25px 20px;
+            }
+
+            .future h2 {
+                font-size: 32px;
+            }
+
+            section {
+                padding: 60px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- =========================
+         MUSIK
+    ========================= -->
+
+    <audio id="bgMusic" loop>
+        <source src="musik.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="musicButton" onclick="toggleMusic()">
+        🔇
+    </button>
+
+
+    <!-- =========================
+         OPENING
+    ========================= -->
+
+    <section class="opening" id="home">
+
+        <div class="opening-content">
+
+            <div class="heart">
+                ❤️
+            </div>
+
+            <h1>
+                Hai, Kesayangannya Mas...
+            </h1>
+
+            <p>
+                Ada sesuatu yang Mas siapkan khusus
+                buat seseorang yang sangat berarti
+                dalam hidup Mas.
+            </p>
+
+            <button class="btn" onclick="bukaWebsite()">
+                Buka Kejutannya ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MENU
+    ========================= -->
+
+    <section class="menu">
+
+        <h2>
+            Sedikit Tentang Kita ❤️
+        </h2>
+
+        <div class="menu-container">
+
+            <a href="#perjalanan" class="menu-card">
+                <span>📖</span>
+                Perjalanan Kita
+            </a>
+
+            <a href="#gallery" class="menu-card">
+                <span>📸</span>
+                Potret Kesayangan Mas
+            </a>
+
+            <a href="#chat" class="menu-card">
+                <span>💬</span>
+                Chat dari tersayang
+            </a>
+
+            <a href="#video" class="menu-card">
+                <span>🎬</span>
+                Video untuk Tersayang
+            </a>
+
+            <a href="#surat" class="menu-card">
+                <span>💌</span>
+                Surat Untukmu
+            </a>
+
+            <a href="#future" class="menu-card">
+                <span>💍</span>
+                Masa Depan
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+     3. PERJALANAN KITA
+================================================== -->
+
+<section id="perjalanan">
+
+<div class="container">
+
+    <div class="title">
+
+        <small>
+            OUR STORY
+        </small>
+
+        <h2>
+            Perjalanan Kita
+        </h2>
+
+    </div>
+
+
+    <div class="timeline">
+
+
+        <!-- CERITA 1 -->
+
+        <div class="timeline-item">
+
+            <span>
+                [27 Februari / 2025]
+            </span>
+
+            <h3>
+                Awal Kita Bertemu
+            </h3>
+
+            <p>
+
+                Kalau ditanya awal mula kita ketemu, mungkin ceritanya sederhana bangett...
+Kita ketemu dari Telegram, di saat keadaan mas lagi ngga baik-baik aja. Waktu itu mas baru aja kehilangan kakak tercinta. Rasanya berat bangett, hati mas lagi berantakan, kosong, dan mas juga ngga tau harus cerita ke siapa.
+Terus entah gimana ceritanya, mas ketemu sama kamu.
+Awalnya mas ngga pernah kepikiran kalo orang yang mas kenal lewat Telegram ini bakal jadi seseorang yang penting banget buat mas. 
+Mas mulai nyaman ngobrol sama kamu. Mulai nungguin chat kamu. Mulai seneng kalau ada cerita dari kamu. Dan tanpa mas sadari, kamu mulai punya tempat sendiri di hati mas.
+
+
+            </p>
+
+            <img
+                src="awal1.jpg"
+                class="timeline-photo"
+                alt="Awal kita">
+
+        </div>
+
+
+
+        <!-- CERITA 2 -->
+
+        <div class="timeline-item">
+
+            <span>
+                [31 Oktober / 2025]
+            </span>
+
+            <h3>
+                Mulai Saling Mengenal dan Percaya
+            </h3>
+
+            <p>
+
+                31 Oktober 2025, kamu ngasih nomor WhatsApp kamu ke mas.
+Kelihatannya sederhana banget ya...
+Cuma sebuah nomor WhatsApp.
+Tapi ternyata, dari nomor itulah cerita kita mulai berubah.
+Dari yang awalnya cuma ngobrol di Telegram, akhirnya kita punya tempat lain buat saling cerita. Dari sekadar saling kenal, perlahan jadi semakin dekat. Dari yang awalnya cuma bertukar pesan, lama-lama ada rasa nyaman yang tumbuh tanpa kita sadari.
+
+Mas nggak tahu sejak kapan tepatnya mas mulai nyaman sama kamu.
+Yang mas tahu, semakin sering kita ngobrol, semakin mas merasa...
+"Kayaknya orang ini bakal jadi seseorang yang penting buat mas."
+Dan ternyata feeling mas waktu itu benar.
+Karena sekarang, kalau mas mengingat kembali tanggal 31 Oktober 2025, mas nggak cuma mengingat sebuah hari ketika kamu memberikan nomor WhatsApp.
+Mas mengingat hari ketika, tanpa kita sadari...
+sebuah cerita tentang kita mulai ditulis.
+Dan mas bersyukur banget, dari sekian banyak orang yang bisa mas temui waktu itu, ternyata Tuhan mempertemukan mas sama kamu.
+
+
+            </p>
+
+            <img
+                src="awal2.jpg"
+                class="timeline-photo"
+                alt="Mengenal&Percaya">
+
+        </div>
+
+
+
+        <!-- CERITA 3 -->
+
+        <div class="timeline-item">
+
+            <span>
+                [12 Juni  / 2025]
+            </span>
+
+            <h3>
+                Momen yang Tidak Terlupakan
+            </h3>
+
+            <p>
+
+                Ada satu hal kecil yang mungkin waktu itu nggak mas anggap terlalu berarti...
+Tapi sekarang, kalau mas mengingatnya lagi, ternyata hari itu punya cerita tersendiri.
+
+12 Juni 2025.
+
+Hari ulang tahun mas.
+Dan hari itu, untuk pertama kalinya kamu ngucapin selamat ulang tahun ke mas.
+Mungkin buat kamu cuma sebuah ucapan sederhana.
+Cuma beberapa kata yang dikirim lewat chat...
+Tapi buat mas, ucapan itu tetap jadi sesuatu yang mas ingat sampai sekarang.
+Mas nggak pernah menyangka, seseorang yang waktu itu masih belum terlalu dekat sama mas, ternyata menjadi salah satu orang yang nantinya punya tempat begitu besar di hati mas.
+Waktu itu mungkin kita belum tahu bakal jadi apa.
+Belum tahu bakal sedekat apa.
+Belum tahu kalau nanti bakal ada banyak cerita yang kita lewati bareng.
+Tapi ternyata, dari hal kecil seperti ucapan ulang tahun itu, ada sebuah cerita yang perlahan mulai tumbuh.
+
+
+            </p>
+
+            <img
+                src="awal3.jpg"
+                class="timeline-photo"
+                alt="Kenangan">
+
+        </div>
+
+
+
+        <!-- CERITA 4 -->
+
+        <div class="timeline-item">
+
+            <span>
+                [2025-2026]
+            </span>
+
+            <h3>
+                Melewati Masa Sulit
+            </h3>
+
+            <p>
+
+                Kita pernah ada di masa dimana semuanya terasa nggak mudah.
+Ada saat sama-sama punya masalah, dan mungkin nggak selalu bisa memahami perasaan satu sama lain.
+Ada hari dimana senyum terasa sulit, ada percakapan yang berujung air mata, ada kata-kata yang tanpa sengaja saling menyakiti.
+Bahkan mungkin pernah ada saat dimana kita bertanya dalam hati...
+"Kita masih bisa bertahan nggak ya?"
+
+Tapi ternyata, setiap kali keadaan mencoba menjauhkan kita, selalu ada alasan untuk kembali saling menggenggam.
+Kita belajar bahwa mencintai seseorang ternyata bukan cuma tentang tertawa bersama saat semuanya baik-baik aja.
+Tapi juga tentang tetap tinggal ketika keadaan sedang buruk.
+Tentang tetap mendengarkan ketika salah satu dari kita sedang kecewa.
+Tentang belajar meminta maaf meskipun ego masih tinggi.
+Tentang belajar memaafkan meskipun hati pernah terluka.
+Dan tentang memilih untuk tetap bersama, bahkan ketika jalan yang kita lewati nggak selalu mudah.
+
+Mas sadar, hubungan kita nggak sempurna.
+Kita juga nggak selalu menjadi pasangan yang sempurna.
+Tapi justru dari semua kesulitan yang pernah kita lewati, mas semakin tahu satu hal...
+mas nggak cuma sayang sama kamu di saat bahagia.
+Mas juga mau ada di samping kamu saat kamu sedang jatuh.
+Saat kamu sedang lelah.
+Saat kamu merasa dunia terlalu berat.
+Karena buat mas, cinta bukan tentang mencari seseorang yang selalu membuat hidup kita mudah.
+Tapi tentang menemukan seseorang yang membuat kita merasa...
+"seberat apa pun hidup ini, aku nggak harus melewatinya sendirian."
+
+Dan terima kasih...
+Karena selama masa-masa sulit itu, kamu masih memilih untuk bertahan.
+
+
+
+
+            </p>
+
+        </div>
+
+
+
+        <!-- CERITA 5 -->
+
+        <div class="timeline-item">
+
+            <span>
+                SEKARANG
+            </span>
+
+            <h3>
+                Sampai di Titik Ini
+            </h3>
+
+            <p>
+
+                Sampai Hari Ini ❤️
+
+Nggak terasa ya...
+Dari awal kita kenal sampai hari ini, ternyata sudah sejauh ini perjalanan kita.
+Banyak banget yang udah kita lewati, banyak cerita yang nggak mungkin mas lupakan, dan banyak momen yang cuma kita berdua yang tahu rasanya.
+Kalau mengingat semuanya dari awal, mas cuma bisa bilang...
+
+ternyata kita hebat juga ya, bisa sampai sejauh ini.
+Bukan karena perjalanan kita selalu mudah, tapi karena di setiap jalannya kita selalu punya alasan untuk tetap bersama.
+Dan sampai hari ini, setelah semua yang kita lewati...
+mas masih memilih kamu.
+Bukan karena mas lupa sama semua kekurangan kita, tapi karena mas tahu, di balik semua itu, kamu adalah seseorang yang ingin terus mas perjuangkan.
+Semoga perjalanan kita nggak berhenti sampai di sini...
+Dan sekarang, mas nggak cuma ingin kamu ada di cerita mas hari ini...
+mas pengen kamu ada di masa depan mas.
+Mas pengen suatu hari nanti, hubungan yang kita perjuangkan selama ini nggak cuma berhenti sebagai cerita tentang pacaran.
+Mas pengen kita sampai di satu titik dimana mas bisa bilang:
+“Ini orang yang dulu mas temui, mas perjuangkan, mas cintai... dan sekarang dia adalah istri mas.”
+Mas pengen menikah sama kamu.
+Bangun kehidupan bareng kamu, pulang ke rumah yang sama, saling nemenin ketika senang maupun susah, dan menjalani sisa perjalanan hidup ini sama kamu.
+Mas nggak tahu kapan tepatnya semua itu akan terjadi...
+Tapi mas tahu satu hal.
+Kalau Allah SWT kasih kesempatan, kamu adalah orang yang ingin mas ajak sampai ke sana. ❤️
+Karena setelah sejauh ini...
+mas nggak ingin cuma punya kamu untuk hari ini.
+Mas ingin punya kamu untuk hari-hari yang masih panjang setelah hari ini. ❤️
+
+
+
+
+
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+</section>
+
+    <!-- =========================
+         GALLERY
+    ========================= -->
+
+    <section id="gallery" class="gallery">
+
+        <div class="reveal">
+
+            <h2>
+                Potret Kesayangan Mas 📸
+            </h2>
+
+            <div class="gallery-container">
+
+                <img
+                    src="foto1.jpeg"
+                    alt="Kenangan 1"
+                    onclick="openImage(this.src)"
+                >
+
+                <img
+                    src="foto2.jpeg"
+                    alt="Kenangan 2"
+                    onclick="openImage(this.src)"
+                >
+
+                <img
+                    src="foto3.jpeg"
+                    alt="Kenangan 3"
+                    onclick="openImage(this.src)"
+                >
+
+                <img
+                    src="foto4.jpeg"
+                    alt="Kenangan 4"
+                    onclick="openImage(this.src)"
+                >
+
+                <img
+                    src="foto5.jpeg"
+                    alt="Kenangan 5"
+                    onclick="openImage(this.src)"
+                >
+
+                <img
+                    src="foto6.jpeg"
+                    alt="Kenangan 6"
+                    onclick="openImage(this.src)"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CHAT BUCIN DALAM BENTUK VIDEO -->
+<section id="chat" class="video-section">
+    <div class="container">
+
+        <div class="title">
+            <small>OUR LITTLE CONVERSATIONS</small>
+            <h2>Chat dari Tersayang 💬❤️</h2>
+        </div>
+
+        <p>
+            Beberapa percakapan sederhana...
+            tapi punya tempat spesial di hati Mas ❤️
+        </p>
+
+        <div class="video-card">
+
+            <video controls playsinline poster="foto1.jpg">
+                <source src="bucin.mp4" type="video/mp4">
+                Browser kamu tidak mendukung video.
+            </video>
+
+            <h3>Potongan Kecil dari Kita ❤️</h3>
+
+            <p>
+                Mungkin cuma sebuah chat
+                tapi buat Mas, setiap kata dari kamu
+                selalu punya cerita sendiri. 🥺❤️
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+    <!-- =========================
+         VIDEO
+    ========================= -->
+
+    <section id="video" class="video-section">
+
+        <div class="reveal">
+
+            <h2>
+                Video utk tersayang 🎬❤️
+            </h2>
+
+            <div class="video-container">
+
+                <video controls>
+
+                    <source
+                        src="kita.mp4"
+                        type="video/mp4"
+                    >
+
+                    Browser kamu tidak mendukung
+                    pemutaran video.
+
+                </video>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SURAT ULANG TAHUN
+    ========================= -->
+
+    <section id="surat">
+
+        <div class="letter reveal">
+
+            <h2>
+                Selamat Ulang Tahun,
+                Sayang ❤️
+            </h2>
+
+
+            <p>
+                Selamat ulang tahun untuk perempuan
+                yang selama ini menjadi salah satu
+                alasan Mas terus berusaha menjadi
+                lebih baik.
+            </p>
+
+
+            <p>
+                Mungkin Mas bukan orang yang selalu
+                pandai mengungkapkan semuanya lewat
+                kata-kata. Tapi satu hal yang ingin
+                Mas pastikan, perasaan Mas ke kamu
+                benar-benar serius.
+            </p>
+
+
+            <p>
+                Mas tidak mencari seseorang yang hanya
+                hadir untuk sementara. Mas ingin
+                seseorang yang bisa Mas ajak melewati
+                hari-hari panjang, menghadapi susah
+                senang bersama, dan akhirnya menjadi
+                tempat pulang.
+            </p>
+
+
+            <p>
+                Dan orang yang Mas inginkan untuk
+                menjalani semua itu adalah kamu.
+            </p>
+
+
+            <p>
+                Semoga di umur kamu yang baru ini,
+                semua doa dan harapan yang kamu simpan
+                perlahan Allah kabulkan.
+            </p>
+
+
+            <p>
+                Mas juga berharap kita tetap saling
+                menggenggam, saling menguatkan,
+                dan terus berjalan bersama sampai
+                nanti waktunya tiba.
+            </p>
+
+
+            <p>
+                Sampai akhirnya bukan lagi sekadar
+                "kita", tapi benar-benar menjadi
+                keluarga.
+            </p>
+
+
+            <div class="signature">
+                — Dari Mas Ferry Tersayang ❤️
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         UNTUK CALON ISTRIKU
+    ========================= -->
+
+    <section id="future" class="future">
+
+        <div class="future-content reveal">
+
+            <h2>
+                Untuk Calon Istriku 💍❤️
+            </h2>
+
+            <p>
+                Mas tidak tahu bagaimana perjalanan
+                kita ke depannya.
+            </p>
+
+            <p>
+                Tapi Mas tahu satu hal...
+            </p>
+
+            <p>
+                Mas ingin tetap berjalan bersamamu.
+            </p>
+
+            <p>
+                Mas ingin melihat kamu tersenyum,
+                menemani kamu melewati hari-hari sulit,
+                membangun kehidupan bersama,
+                dan suatu hari nanti...
+            </p>
+
+            <p>
+                memanggilmu bukan hanya sebagai
+                kekasih,
+                tapi sebagai <b>istrinya Mas.</b>
+            </p>
+
+            <div class="big-heart">
+                ❤️
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================= -->
+
+    <footer>
+
+        Dibuat khusus untuk seseorang
+        yang ingin Mas jadikan rumah
+        <br>
+
+        Khoiri Rohmah ❤️
+
+    </footer>
+
+
+    <!-- =========================
+         IMAGE POPUP
+    ========================= -->
+
+    <div
+        class="image-popup"
+        id="imagePopup"
+        onclick="closeImage()"
+    >
+
+        <img
+            id="popupImage"
+            src=""
+            alt="Foto diperbesar"
+        >
+
+    </div>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================= -->
+
+    <script>
+
+        /* =========================
+           MUSIK
+        ========================= */
+
+        const music =
+            document.getElementById("bgMusic");
+
+        const musicButton =
+            document.getElementById("musicButton");
+
+
+        function bukaWebsite() {
+
+            music.play()
+                .then(() => {
+
+                    musicButton.innerHTML = "🔊";
+
+                })
+                .catch(() => {
+
+                    console.log(
+                        "Musik belum bisa dimainkan otomatis."
+                    );
+
+                });
+
+
+            document.querySelector(
+                "#perjalanan"
+            ).scrollIntoView({
+                behavior: "smooth"
+            });
+
+        }
+
+
+        function toggleMusic() {
+
+            if (music.paused) {
+
+                music.play();
+
+                musicButton.innerHTML = "🔊";
+
+            } else {
+
+                music.pause();
+
+                musicButton.innerHTML = "🔇";
+
+            }
+
+        }
+
+
+        /* =========================
+           REVEAL SAAT SCROLL
+        ========================= */
+
+        function revealOnScroll() {
+
+            const reveals =
+                document.querySelectorAll(".reveal");
+
+
+            reveals.forEach(function(element) {
+
+                const windowHeight =
+                    window.innerHeight;
+
+                const elementTop =
+                    element.getBoundingClientRect().top;
+
+                const visiblePoint = 120;
+
+
+                if (
+                    elementTop <
+                    windowHeight - visiblePoint
+                ) {
+
+                    element.classList.add("active");
+
+                }
+
+            });
+
+        }
+
+
+        window.addEventListener(
+            "scroll",
+            revealOnScroll
+        );
+
+
+        revealOnScroll();
+
+
+        /* =========================
+           FALLING HEART
+        ========================= */
+
+        function createHeart() {
+
+            const heart =
+                document.createElement("div");
+
+            heart.classList.add(
+                "falling-heart"
+            );
+
+            heart.innerHTML = "❤️";
+
+            heart.style.left =
+                Math.random() * 100 + "vw";
+
+            heart.style.animationDuration =
+                (Math.random() * 3 + 4) + "s";
+
+            heart.style.fontSize =
+                (Math.random() * 15 + 12) + "px";
+
+            document.body.appendChild(heart);
+
+
+            setTimeout(function() {
+
+                heart.remove();
+
+            }, 7000);
+
+        }
+
+
+        setInterval(
+            createHeart,
+            800
+        );
+
+
+        /* =========================
+           IMAGE POPUP
+        ========================= */
+
+        function openImage(src) {
+
+            const popup =
+                document.getElementById(
+                    "imagePopup"
+                );
+
+            const popupImage =
+                document.getElementById(
+                    "popupImage"
+                );
+
+
+            popupImage.src = src;
+
+            popup.style.display = "flex";
+
+        }
+
+
+        function closeImage() {
+
+            document.getElementById(
+                "imagePopup"
+            ).style.display = "none";
+
+        }
+
+    </script>
+
+</body>
+</html>
+```
